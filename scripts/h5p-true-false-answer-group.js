@@ -1,4 +1,4 @@
-H5P.TrueFalse.AnswerGroup = (function ($, EventDispatcher) {
+H5P.TrueFalseIDO.AnswerGroup = (function ($, EventDispatcher) {
   'use strict';
 
   /**
@@ -22,8 +22,8 @@ H5P.TrueFalse.AnswerGroup = (function ($, EventDispatcher) {
     });
 
     var answer;
-    var trueAnswer = new H5P.TrueFalse.Answer(l10n.trueText, l10n.correctAnswerMessage, l10n.wrongAnswerMessage);
-    var falseAnswer = new H5P.TrueFalse.Answer(l10n.falseText, l10n.correctAnswerMessage, l10n.wrongAnswerMessage);
+    var trueAnswer = new H5P.TrueFalseIDO.Answer(l10n.trueText, l10n.correctAnswerMessage, l10n.wrongAnswerMessage);
+    var falseAnswer = new H5P.TrueFalseIDO.Answer(l10n.falseText, l10n.correctAnswerMessage, l10n.wrongAnswerMessage);
     var correctAnswer = (correctOption === 'true' ? trueAnswer : falseAnswer);
     var wrongAnswer = (correctOption === 'false' ? trueAnswer : falseAnswer);
 

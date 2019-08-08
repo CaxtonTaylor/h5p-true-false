@@ -1,4 +1,4 @@
-H5P.TrueFalse = (function ($, Question) {
+H5P.TrueFalseIDO = (function ($, Question) {
   'use strict';
 
   // Maximum score for True False
@@ -70,14 +70,14 @@ H5P.TrueFalse = (function ($, Question) {
     TrueFalse.counter = (TrueFalse.counter === undefined ? 0 : TrueFalse.counter + 1);
 
     // A unique ID is needed for aria label
-    var domId = 'h5p-tfq' + H5P.TrueFalse.counter;
+    var domId = 'h5p-tfq' + H5P.TrueFalseIDO.counter;
 
     // saves the content id
     this.contentId = id;
     this.contentData = contentData;
 
     // The radio group
-    var answerGroup = new H5P.TrueFalse.AnswerGroup(domId, params.correct, params.l10n);
+    var answerGroup = new H5P.TrueFalseIDO.AnswerGroup(domId, params.correct, params.l10n);
     if (contentData.previousState !== undefined && contentData.previousState.answer !== undefined) {
       answerGroup.check(contentData.previousState.answer);
     }

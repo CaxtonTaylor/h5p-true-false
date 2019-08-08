@@ -1,7 +1,7 @@
 {
-  "title": "True/False Question",
+  "title": "True/False Question IDO",
   "description": "Test your users with 'True or False' type questions",
-  "machineName": "H5P.TrueFalse",
+  "machineName": "H5P.TrueFalseIDO",
   "majorVersion": 1,
   "minorVersion": 5,
   "patchVersion": 3,

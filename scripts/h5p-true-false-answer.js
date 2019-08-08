@@ -1,4 +1,4 @@
-H5P.TrueFalse.Answer = (function ($, EventDispatcher) {
+H5P.TrueFalseIDO.Answer = (function ($, EventDispatcher) {
   'use strict';
 
   var Keys = {
