@@ -486,4 +486,4 @@ H5P.TrueFalseIDO = (function ($, Question) {
   TrueFalse.prototype.constructor = TrueFalse;
 
   return TrueFalse;
-})(H5P.jQuery, H5P.Question);
+})(H5P.jQuery, H5P.QuestionIDO);
